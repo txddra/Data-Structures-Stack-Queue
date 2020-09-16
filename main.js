@@ -1,11 +1,20 @@
 class stack{
     constructor(array){
-        this.array = array;
+        this.array =[];
+        return this
     }
 
-    push(){
-        this.array.push()
+    push(data){
+        this.array.push(data);
     }
-
     
+    pop(data){
+        this.array.pop(data);
+    }
+
+    peek(){
+       t this.array
+    }
+
+
 }
