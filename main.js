@@ -16,5 +16,10 @@ class stack{
         console.log(`The top of the stack :${this.array[0]} `)
     }
 
+    isEmpty(){
+        if(this.array.length === 0){
+            return true
+        }
+    }
 
 }
