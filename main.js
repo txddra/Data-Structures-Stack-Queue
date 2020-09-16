@@ -13,7 +13,7 @@ class stack{
     }
 
     peek(){
-       t this.array
+        console.log(`The top of the stack :${this.array[0]} `)
     }
 
 
