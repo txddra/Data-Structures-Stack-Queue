@@ -23,3 +23,9 @@ class stack{
     }
 
 }
+
+class queue{
+    constructor(array){
+        
+    }
+}
