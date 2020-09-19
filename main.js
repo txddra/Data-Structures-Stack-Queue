@@ -38,7 +38,12 @@ class queue{
         this.array.shift(data);
 
     }
-    font(element){
+    font(){
         console.log(`The front of the queue is ${this.array[0]}`)
+    }
+    isEmpty(){
+        if(this.array.length === 0){
+            return true
+        }
     }
 }
