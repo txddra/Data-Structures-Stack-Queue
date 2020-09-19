@@ -26,6 +26,13 @@ class stack{
 
 class queue{
     constructor(array){
-        
+        this.array = [];
+
     }
+
+    enqueue(data){
+this.array.push(data)
+    }
+
+    
 }
