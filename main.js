@@ -13,7 +13,7 @@ class stack{
     }
 
     peek(){
-        console.log(`The top of the stack :${this.array[0]} `)
+        console.log(`The top of the stack :${this.array.length-1} `)
     }
 
     isEmpty(){
