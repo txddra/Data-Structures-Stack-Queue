@@ -31,12 +31,14 @@ class queue{
     }
 
     enqueue(data){
-        this.array.push(data)
+        this.array.push(data);
     }
 
     dequeue(data){
-        this.array.shift(data)
+        this.array.shift(data);
 
     }
-    
+    font(element){
+        console.log(`The front of the queue is ${this.array[0]}`)
+    }
 }
