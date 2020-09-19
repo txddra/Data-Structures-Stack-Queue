@@ -26,27 +26,35 @@ class stack{
 
 class queue{
     constructor(array){
+
         this.array = [];
 
     }
 
     enqueue(data){
+
         this.array.push(data);
     }
 
     dequeue(data){
+
         this.array.shift(data);
 
     }
     font(){
+        
         console.log(`The front of the queue is ${this.array[0]}`)
     }
     isEmpty(){
-        if(this.array.length === 0){
-            return true;
-        }
+            
+        return this.array.length === 0;
+
+        
     }
     printQueue(){
-        console.log(array.join(','))
+        let str = ""; 
+    for(let i = 0; i < this.array.length; i++) 
+        str += this.array[i] +" "; 
+    return str; 
     }
 }
