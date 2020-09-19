@@ -31,8 +31,12 @@ class queue{
     }
 
     enqueue(data){
-this.array.push(data)
+        this.array.push(data)
     }
 
+    dequeue(data){
+        this.array.shift(data)
+
+    }
     
 }
