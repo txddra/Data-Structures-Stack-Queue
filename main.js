@@ -43,7 +43,10 @@ class queue{
     }
     isEmpty(){
         if(this.array.length === 0){
-            return true
+            return true;
         }
+    }
+    printQueue(){
+        console.log(array.join(','))
     }
 }
